@@ -1,0 +1,96 @@
+body {
+  background-color: #a5cff5;
+  font-family: Arial, sans-serif;
+  padding-top: 50px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.card {
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.form-group label {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+#weatherResult h3 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+#weatherResult p {
+  margin: 5px 0;
+}
+
+@media (max-width: 576px) {
+  .card-body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .form-group label,
+  .form-control,
+  .btn-primary {
+    font-size: 0.9rem;
+  }
+
+  #weatherResult {
+    font-size: 1rem;
+  }
+
+  #weatherResult h3 {
+    font-size: 1.5rem;
+  }
+}
+
+#weatherResult p {
+  font-weight: bold;
+}
+
+#weatherResult p span {
+  font-weight: normal;
+}
